@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=4;i++)
+    {
+        for(int j=4;j>=i;j--)
+        {
+            printf("*\t");
+        }
+        printf("\n");
+        for(int space=1;space<=i;space++)
+        {
+            printf("\t");
+        }
+    }
+}
